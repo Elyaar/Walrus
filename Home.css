@@ -9,3 +9,25 @@
   width: 200px;
   display: inline-block;
 }
+.footer .contact{
+  flex: 1;
+  margin: 10px;
+}
+ 
+.footer .social_media{
+  flex: 1;
+  margin: 10px;
+}
+.footer .map{
+  flex: 1;
+  margin: 10px;
+}
+.footer{
+  background-color: royalblue;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
