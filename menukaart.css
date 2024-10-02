@@ -13,3 +13,23 @@
     width: 10cm;
     height: 10cm;
 }
+
+.grid-card{
+    grid-template-columns: 1fr 1fr;
+
+    width: 300px; 
+    height: 300px;
+}
+
+.chalk-board{
+    background-image: url("img/Chalkboard-Background-Graphics-72024326-1.png");
+    /* object-fit: fill; */
+}
+
+.caveat-brush-regular {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  
