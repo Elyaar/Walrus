@@ -1,33 +1,121 @@
-.logo {
-  background-color: white;
-  width: 200px;
-  margin-top: -10px;
-}
+ body {
+   vertical-align: bottom;
+ }
 
-.logo-div {
-  margin-top: -10px;
-  width: 200px;
-  display: inline-block;
-}
-.footer .contact{
-  flex: 1;
-  margin: 10px;
-}
- 
-.footer .social_media{
-  flex: 1;
-  margin: 10px;
-}
-.footer .map{
-  flex: 1;
-  margin: 10px;
-}
-.footer{
-  background-color: royalblue;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  bottom: 0;
-  width: 100%
-}
+ .logo {
+   background-color: white;
+   width: 100px;
+   cursor: pointer;
+   background-color: hsl(182, 94%, 53%);
+   border-style: solid;
+   border-radius: 5px;
+   border-width: 0px;
+   object-fit: contain;
+   margin-top: 10px;
+   padding-left: 10px;
+   padding-top: -300px;
+   padding-bottom: -110px;
+   padding-right: 10px;
+   vertical-align: bottom;
+ }
+
+
+
+ .logo-div {
+   margin-top: -10px;
+   width: 200px;
+   display: block;
+ }
+
+ .div-nav {
+
+   border-width: 0px;
+   border-style: solid;
+   display: block;
+   margin-left: 600px;
+ }
+
+ .navbar ul {
+
+   list-style-type: none;
+   background-color: hsl(182, 95%, 42%);
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+   width: 1100px;
+ }
+
+ .navbar a {
+   color: wheat;
+   text-decoration: none;
+   padding: 15px;
+   display: inline;
+   text-align: center;
+ }
+
+ .navbar a:hover {
+   background-color: hsl(180, 20%, 4%);
+
+ }
+
+ .navbar li {
+   float: left;
+   font-size: 30px;
+   padding: 15px;
+ }
+
+
+ .contact {
+   margin: 0px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer .contact {
+   flex: 1;
+   margin: 10px;
+ }
+
+ .footer .social_media {
+   flex: 1;
+   margin: 10px;
+ }
+
+ .footer .map {
+   flex: 1;
+   margin: 10px;
+ }
+
+ .footer {
+   background-color: royalblue;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   bottom: 0;
+   width: 100%
+ }
