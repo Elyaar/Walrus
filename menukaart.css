@@ -1,6 +1,15 @@
-img{
+.main-card{
     display: flex;
     justify-content: center;
     width: 35cm;
     height: 20cm;
+}
+
+.sub-card{
+    display: inline-flex;
+
+    gap: 15px;
+
+    width: 10cm;
+    height: 10cm;
 }
