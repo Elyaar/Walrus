@@ -1,9 +1,9 @@
 .page_links{
     display: flex;
-    background-color: pink;
+    background-color: rgb(105, 22, 22)
 }
 .page_links .link{
-    background-color: plum;
+    background-color: rgb(121, 41, 41);
 }
 body{
     margin: auto;
@@ -26,10 +26,9 @@ header{
   }
   .footer{
     background-color: royalblue;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    bottom: 0;
     width: 100%
   }
