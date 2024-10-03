@@ -22,7 +22,11 @@
 }
 
 .chalk-board{
-    background-image: url("img/Chalkboard-Background-Graphics-72024326-1.png");
+    display: flex;
+
+    justify-content: center;
+
+    background-image: url("img/Chalkboard_24x36_web.jpg");
     /* object-fit: fill; */
 }
 
