@@ -1,0 +1,35 @@
+.page_links{
+    display: flex;
+    background-color: pink;
+}
+.page_links .link{
+    background-color: plum;
+}
+body{
+    margin: auto;
+}
+header{
+    background-color: whitesmoke;
+}
+.footer .box-1{
+    flex: 1;
+    margin: 10px;
+  }
+   
+  .footer .box-2{
+    flex: 1;
+    margin: 10px;
+  }
+  .footer .box-3{
+    flex: 1;
+    margin: 10px;
+  }
+  .footer{
+    background-color: royalblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+  }
