@@ -1,0 +1,34 @@
+.page_links{
+    display: flex;
+    background-color: rgb(105, 22, 22)
+}
+.page_links .link{
+    background-color: rgb(121, 41, 41);
+}
+body{
+    margin: auto;
+}
+header{
+    background-color: whitesmoke;
+}
+.footer .box-1{
+    flex: 1;
+    margin: 10px;
+  }
+   
+  .footer .box-2{
+    flex: 1;
+    margin: 10px;
+  }
+  .footer .box-3{
+    flex: 1;
+    margin: 10px;
+  }
+  .footer{
+    background-color: royalblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%
+  }
