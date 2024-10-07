@@ -1,17 +1,6 @@
-.main-card{
-    display: flex;
-    justify-content: center;
-    width: 35cm;
-    height: 20cm;
-}
-
-.sub-card{
-    display: inline-flex;
-
-    gap: 15px;
-
-    width: 10cm;
-    height: 10cm;
+.chalk-board-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .grid-card{
@@ -22,15 +11,11 @@
 }
 
 .chalk-board{
-    display: flex;
-
-    justify-content: center;
-
     background-image: url("img/Chalkboard_24x36_web.jpg");
     /* object-fit: fill; */
 }
 
-.caveat-brush-regular {
+#caveat-brush-regular {
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
     font-style: normal;
