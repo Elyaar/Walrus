@@ -1,6 +1,6 @@
 .chalk-board-content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-card{
@@ -11,9 +11,13 @@
 }
 
 .chalk-board{
+    border: 50px solid transparent;
     border-image: url(img/Woodframe_chalkboard.jpg) 50 round;
     background-image: url("img/Chalkboard_24x36_web.jpg");
-    /* object-fit: fill; */
+    background-color: gray;
+    background-blend-mode: darken;
+
+    padding: 20px 20px 20px 20px;
 }
 
 #caveat-brush-regular {
