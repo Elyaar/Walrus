@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +7,8 @@
 </head>
 
 <body>
-
+  <?php
+  ?>
   <section>
 
     <div class=logo-div>
