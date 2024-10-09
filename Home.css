@@ -1,7 +1,3 @@
- body {
-   vertical-align: bottom;
- }
-
  .logo {
    background-color: white;
    width: 100px;
@@ -64,7 +60,56 @@
    padding: 15px;
  }
 
+ 
+ body, #korte_omschrijving, #openingstijden{
+  overflow-x: auto;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
+#content_top {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
+
+#KO {
+  width: 50%;
+  height: 100%;
+}
+
+#korte_omschrijving {
+  background-color: aqua;
+  width: 100%; 
+}
+
+#content_bottom {
+  display:flex ;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
+
+#OT1 {
+  width: 50%;
+  height: 100%;
+}
+
+#openingstijden {
+  background-color: blanchedalmond;
+  text-align: center;
+  width: 100%;
+
+}
+
+ 
  .contact {
    margin: 0px;
 
