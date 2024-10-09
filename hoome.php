@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link REL="stylesheet" href="home.css">
+  <link REL="stylesheet" href="hoome.css">
   <title>De Walrus</title>
 </head>
 <body>
