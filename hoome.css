@@ -64,6 +64,8 @@
  body, #korte_omschrijving, #openingstijden{
   overflow-x: auto;
 }
+
+
 main {
   display: flex;
   flex-direction: column;
@@ -101,6 +103,8 @@ main {
   width: 50%;
   height: 100%;
 }
+
+
 
 #openingstijden {
   background-color: blanchedalmond;
