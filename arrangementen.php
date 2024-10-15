@@ -43,7 +43,7 @@
                     je gewoon weer met rust ;
                     <br><br>
                     Je kunt genieten van het Bierarrangement bij zowel De Walrus Leeuwarden als De
-                    Walrus Sneek.. Reserveer voor €42,50 per persoon of neem voor meer informatie
+                    Walrus Sneek.. <a href="Reserveren.html">Reserveren</a> voor €42,50 per persoon of neem voor meer informatie
                     contact met ons op.
                     <br><br>
                     De Walrus Sneek
