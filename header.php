@@ -2,25 +2,23 @@
 <html lang="en">
 
 <head>
-  <link REL="stylesheet" href="/home.css">
+  <link REL="stylesheet" href="header.css">
   <title>De Walrus</title>
 </head>
 
 <body>
-  <?php
-  ?>
   <section>
 
     <div class=logo-div>
-      <img src="/img/De Walrus.png" class="logo">
+      <img src="img/De Walrus.png" class="logo">
       <div class="div-nav">
         <nav class="navbar">
           <ul>
-            <li><a href="Home.html">Welkom</a></li>
-            <li><a href="/Arrangementen.html">Arrangementen</a></li>
-            <li><a href="/menukaart.html">Menu</a></li>
-            <li><a href="/Reserveren.html">Reserveren</a></li>
-            <li class=" contact"><a href="/Contact.html">Contact</a></li>
+            <li><a href="hoome.php">Welkom</a></li>
+            <li><a href="arrangementen.php">Arrangementen</a></li>
+            <li><a href="menukaart.php">Menu</a></li>
+            <li><a href="reserveren.php">Reserveren</a></li>
+            <li class=" contact"><a href="contact.php">Contact</a></li>
 
 
           </ul>
