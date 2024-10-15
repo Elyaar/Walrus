@@ -9,7 +9,7 @@
 <body>
   <section>
     <div class=logo-div>
-      <img src="/img/De Walrus.png" class="logo">
+      <img src="img/De Walrus.png" class="logo">
       <div class="div-nav">
         <nav class="navbar">
           <ul>
