@@ -8,6 +8,9 @@
 </head>
 
 <body>
+  <?php include 'header.php';
+
+  ?>
   <section>
     Reserveren
   </section>

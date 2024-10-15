@@ -9,6 +9,9 @@
 </head>
 
 <body>
+<?php include 'header.php';
+
+?>
     <main>
         <div id="content_top">
             <div id="cookingar">
