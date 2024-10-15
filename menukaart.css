@@ -18,9 +18,7 @@
     background-blend-mode: darken;
 
     padding: 20px 20px 20px 20px;
-}
 
-#caveat-brush-regular {
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
     font-style: normal;
@@ -29,6 +27,11 @@
 
 ul{
     list-style-type: none;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
     margin: 0px 0px 0px 0px;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-between;
 }
