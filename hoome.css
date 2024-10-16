@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+
+:root {
+  --primary-color: #0c5434;
+  --secondary-color: #EAEFE2;
+  --tertiary-color: #65463E;
+}
+
 .div-header {
   height: 150px;
   width: 800px;
@@ -11,12 +17,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-=======
-:root {
-  --primary-color: #0c5434;
-  --secondary-color: #EAEFE2;
-  --tertiary-color: #65463E;
-} 
+ 
 
  body,
  #korte_omschrijving,
