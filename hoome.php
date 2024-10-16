@@ -14,11 +14,12 @@
 
   ?>
 
-<div class=div-header> 
 
-</div>
+  <div class=div-header>
 
- 
+  </div>
+
+
   <main>
     <div id="content_top">
       <img id="KO" src="img/walrus1.png" alt="foto1">
