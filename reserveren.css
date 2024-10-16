@@ -1,1 +1,19 @@
+.title-res {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
 
+}
+
+.div-res {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: bisque;
+}
+
+.t-2 {
+  margin-left: 800px;
+}
