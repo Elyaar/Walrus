@@ -47,7 +47,6 @@ main {
   width: 50%;
   height: 100%;
 }
-
 #korte_omschrijving {
   background-color: aqua;
   width: 100%;
@@ -65,9 +64,11 @@ main {
   height: 100%;
 }
 
-
-
-
+ #OT1 {
+   width: 50%;
+   height: 100%;
+ }
+ 
 
 body,
 #korte_omschrijving,
