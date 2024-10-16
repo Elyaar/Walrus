@@ -13,7 +13,7 @@
 <?php include 'header.php';
 
 ?>
-    <a href="#dinnercard"><img src="img/De Walrus.png" alt="logolink" style="width: 150px; height: 150px;"></a>
+    <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 150px; height: 150px;"></a>
     <hr>
     <section class="chalk-board" id="dinnercard">
         <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Diner</h1>
