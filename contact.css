@@ -1,30 +1,20 @@
-.page_links{
-    display: flex;
-    background-color: rgb(105, 22, 22)
-}
-.page_links .link{
-    background-color: rgb(121, 41, 41);
-}
-body {
-  margin: 0;}
-header{
-    background-color: whitesmoke;
+body{
+  margin: 0;
 }
 .footer .contact{
-  flex: 3;
+  flex: 1;
   margin: 10px;
 }
  
 .footer .social_media{
-  flex: 3;
+  flex: 1;
   margin: 10px;
 }
 .footer .map{
-  flex: 3;
+  flex: 1;
   margin: 10px;
 }
-.footer {
-  background-color: whitesmoke;
+footer .footer {
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -39,4 +29,8 @@ input {
 input:hover{
   box-shadow: 9px 9px 10px 1px rgb(37, 36, 36);
   transition: 1s;
-}   
+}
+.content{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 1px blacks;
+}

@@ -5,38 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact page</title>
     <link rel="stylesheet" href="contact.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
 <?php include 'header.php';
 
 ?>
-    <header>
-        <div class="main_text">
-            <h1>de café walrus</h1>
-            <p>where magic comes true</p>
-        </div>
-        <hr>
-        <div class="page_links">
-            <a href="#" class="link">Home</a>
-            <img src="empty png foto.png" height="1" width="100">
-            <a href="#" class="link">contact</a>
-            <img src="empty png foto.png" height="1" width="100">
-            <a href="#" class="link">reserveeren</a>
-            <img src="empty png foto.png" height="1" width="100">
-            <a href="#" class="link">menukaart</a>
-            <img src="empty png foto.png" height="1" width="100">
-            <a href="#" class="link">zaakelijk</a>
-            <img src="empty png foto.png" height="1" width="100">
-            <a href="#" class="link">Arrangementen</a>
-            <hr>
-        </div>    
-    </header>
  
-    <div class="content">
+    <div class="content-1">
         <h2>hoe kunnen wij jouw helpen</h2>
         <h3>neem contact met ons op</h3>
         <h4>of bel ons 0515438100 voor onse sneek locatie of bel 0582137740 voor de hereveen locatie</h4>
@@ -55,6 +31,7 @@
     <hr>
     <footer>
         <section class="footer">
+            <div class="content-2">
                 <div class="contact">
                     <img src="img/pixil-frame-0 (3) (1).png" alt="the Logo" height="100" width="500">
                     <h2>contact</h2>
@@ -78,6 +55,7 @@
                     <h2>the map</h2>
                     <img src="img/Schermafbeelding 2024-10-01 194245.png" width="400" height="200">
                 </div>
+            </div>
         </section>
     </footer>
 </body>
