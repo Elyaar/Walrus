@@ -14,7 +14,7 @@
 
   ?>
 
-
+ 
   <main>
     <div id="content_top">
       <img id="KO" src="img/walrus1.png" alt="foto1">
