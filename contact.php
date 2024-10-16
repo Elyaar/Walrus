@@ -11,6 +11,9 @@
 
 </head>
 <body>
+<?php include 'header.php';
+
+?>
     <header>
         <div class="main_text">
             <h1>de café walrus</h1>

@@ -8,8 +8,11 @@
 </head>
 
 <body>
+  <?php include 'header.php';
+
+  ?>
   <section>
-    Reserveren
+    Reserverennn
   </section>
 
 </body>
