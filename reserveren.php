@@ -14,7 +14,9 @@
   <section>
     Reserverennn lol
   </section>
+  <?php include 'footer.php';
 
+  ?>
 </body>
 
 </html>
