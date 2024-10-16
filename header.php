@@ -26,7 +26,8 @@
 
         </nav>
       </div>
-      <!-- <img src="/img/images.jpeg"> -->
+     
+
     </div>
 
   </section>

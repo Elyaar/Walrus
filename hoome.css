@@ -1,8 +1,23 @@
+
 :root {
   --primary-color: #0c5434;
   --secondary-color: #EAEFE2;
   --tertiary-color: #65463E;
-} 
+}
+
+.div-header {
+  height: 150px;
+  width: 800px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  background-color: red;
+  margin-left: 100px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
 
  body,
  #korte_omschrijving,
@@ -51,43 +66,92 @@
 
 
 
- #openingstijden {
-   background-color: blanchedalmond;
-   text-align: center;
-   width: 100%;
 
- }
 
- .footer .contact {
-   flex: 1;
-   margin: 10px;
- }
+body,
+#korte_omschrijving,
+#openingstijden {
+  overflow-x: auto;
+}
 
- .footer .social_media {
-   flex: 1;
-   margin: 10px;
- }
 
- .footer .map {
-   flex: 1;
-   margin: 10px;
- }
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
- .footer {
-   background-color: whitesmoke;
-   padding: 20px;
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   height: 80px;
- }
+#content_top {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
 
- input {
-   box-shadow: 5px 5px 10px 1px black;
-   border-radius: 10px;
- }
+#KO {
+  width: 50%;
+  height: 100%;
+}
 
- input:hover {
-   box-shadow: 9px 9px 10px 1px rgb(37, 36, 36);
-   transition: 1s;
- }
+#korte_omschrijving {
+  background-color: aqua;
+  width: 100%;
+}
+
+#content_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
+
+#OT1 {
+  width: 50%;
+  height: 100%;
+}
+
+
+
+#openingstijden {
+  background-color: blanchedalmond;
+  text-align: center;
+  width: 100%;
+
+}
+
+.footer .contact {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer .social_media {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer .map {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer {
+  background-color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+
+input {
+  box-shadow: 5px 5px 10px 1px black;
+  border-radius: 10px;
+}
+
+input:hover {
+  box-shadow: 9px 9px 10px 1px rgb(37, 36, 36);
+  transition: 1s;
+}
