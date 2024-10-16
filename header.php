@@ -10,7 +10,8 @@
   <section>
 
     <div class=logo-div>
-      <img src="img/De Walrus.png" class="logo">
+      <a href="hoome.php"> <img src="img/De Walrus.png" class="logo">
+      </a>
       <div class="div-nav">
         <nav class="navbar">
           <ul>
@@ -25,7 +26,8 @@
 
         </nav>
       </div>
-      <!-- <img src="/img/images.jpeg"> -->
+     
+
     </div>
 
   </section>

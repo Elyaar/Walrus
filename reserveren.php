@@ -12,7 +12,7 @@
 
   ?>
   <section>
-    Reserveren
+    Reserverennn lol
   </section>
 
 </body>
