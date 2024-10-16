@@ -1,4 +1,8 @@
- 
+:root {
+  --primary-color: #0c5434;
+  --secondary-color: #EAEFE2;
+  --tertiary-color: #65463E;
+} 
 
  body,
  #korte_omschrijving,
