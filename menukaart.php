@@ -124,12 +124,12 @@
                         <li>Pannenkoek</li>
                         <li>Pasta</li>
                         <li>BoevenBord</li>
-                        <li>Mini Hamburger, Doe er op jij lekker vind</li>
+                        <li>Mini Hamburger, Doe er op wat jij lekker vind</li>
                     </ul>
 
                     <ul>
                         <li>€2,45</li>
-                        <li>€2,45</li>
+                        <br>
                         <li>€2,45</li>
                         <li>€2,45</li>
                         <li>€2,45</li>

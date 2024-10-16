@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .div-header {
   height: 150px;
   width: 800px;
@@ -10,6 +11,58 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+=======
+:root {
+  --primary-color: #0c5434;
+  --secondary-color: #EAEFE2;
+  --tertiary-color: #65463E;
+} 
+
+ body,
+ #korte_omschrijving,
+ #openingstijden {
+   overflow-x: auto;
+ }
+
+
+ main {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   box-sizing: border-box;
+   margin-top: 2%;
+   margin-bottom: 2%;
+ }
+
+ #content_top {
+   display: flex;
+   justify-content: center;
+   gap: 2%;
+   height: 20vw;
+ }
+
+ #KO {
+   width: 50%;
+   height: 100%;
+ }
+
+ #korte_omschrijving {
+   background-color: aqua;
+   width: 100%;
+ }
+
+ #content_bottom {
+   display: flex;
+   justify-content: center;
+   gap: 2%;
+   height: 20vw;
+ }
+
+ #OT1 {
+   width: 50%;
+   height: 100%;
+ }
+>>>>>>> ff7792fb14d085043c3374517175cd3e7ded2a6d
 
 
 
