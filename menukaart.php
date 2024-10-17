@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>MenuKaart</title>
 </head>
-<body>
-<?php include 'header.php';
-
-?>
-
 <?php
 
 
 ?>
+<body>
+    <?php include 'header.php';
+
+    ?>
     <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 150px; height: 150px;"></a>
     <hr>
     <section class="chalk-board" id="dinnercard">
         <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Diner</h1>
         <div class="chalk-board-content">
             <div>
-                <h2 id="caveat-brush-regular">Dessert</h2> 
+                <h2 id="caveat-brush-regular">Dessert</h2>
                 <div class="prices">
                     <ul>
-                        <li>sticky tofee cake</li>                    
+                        <li>sticky tofee cake</li>
                         <li>vloeibaar chocolade taartje</li>
                         <li>Eten Mess</li>
                         <li>Passievrucht Cheesecake</li>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div>
                 <h2>Vis Gerechten</h2>
                 <div class="prices">
@@ -116,9 +116,9 @@
                         <li>€2,45</li>
                     </ul>
                 </div>
-                    <br>
+                <br>
                 <h2>Kids Menu</h2>
-                <div class="prices">    
+                <div class="prices">
                     <ul>
                         <li>Frikandel, Kroket, Kipnuggets of Spiesje van Bitterbal, Frikandel en Kipnugget</li>
                         <li>KinderSoepje</li>
@@ -152,24 +152,24 @@
     <br>
     <div class="grid-div">
         <section class="chalk-board">
-                <h1 style="display: flex; justify-content: center;">Soepen</h1>
-                <div class="prices">
-                    <ul>
-                        <li>Broodplankje</li>
-                        <li>Romige Tomatensoep</li>
-                        <li>Romige Mosterdsoep</li>
-                        <li>Soto Ajam</li>
-                        <li>Proeverij van 3 soepen</li>
-                    </ul>
+            <h1 style="display: flex; justify-content: center;">Soepen</h1>
+            <div class="prices">
+                <ul>
+                    <li>Broodplankje</li>
+                    <li>Romige Tomatensoep</li>
+                    <li>Romige Mosterdsoep</li>
+                    <li>Soto Ajam</li>
+                    <li>Proeverij van 3 soepen</li>
+                </ul>
 
-                    <ul>
-                        <li>€2,45</li>
-                        <li>€2,45</li>
-                        <li>€2,45</li>
-                        <li>€2,45</li>
-                        <li>€2,45</li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>€2,45</li>
+                    <li>€2,45</li>
+                    <li>€2,45</li>
+                    <li>€2,45</li>
+                    <li>€2,45</li>
+                </ul>
+            </div>
 
         </section>
         <section class="chalk-board">
@@ -223,7 +223,7 @@
                         <li>€20,-</li>
                         <li>€20,-</li>
                     </ul>
-                </div> 
+                </div>
                 <br>
                 <h2 id="caveat-brush-regular">Lunch Specials</h2>
                 <div class="prices">
@@ -296,5 +296,9 @@
             </div>
         </div>
     </section>
+    <?php include 'footer.php';
+
+    ?>
 </body>
+
 </html>

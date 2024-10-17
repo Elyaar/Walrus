@@ -1,42 +1,54 @@
-.page_links{
-    display: flex;
-    background-color: rgb(105, 22, 22)
-}
-.page_links .link{
-    background-color: rgb(121, 41, 41);
-}
 body {
-  margin: 0;}
-header{
-    background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
 }
-.footer .contact{
-  flex: 3;
-  margin: 10px;
-}
- 
-.footer .social_media{
-  flex: 3;
-  margin: 10px;
-}
-.footer .map{
-  flex: 3;
-  margin: 10px;
-}
-.footer {
-  background-color: whitesmoke;
+.content {
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
+  max-width: 800px;
+  margin: 0 auto;
 }
-input {
-  box-shadow: 5px 5px 10px 1px black;
+
+.content {
+  background-color: white;
+  padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px gray;
 }
-input:hover{
-  box-shadow: 9px 9px 10px 1px rgb(37, 36, 36);
-  transition: 1s;
-}   
+
+.content fieldset {
+  border: none;
+}
+
+.content label {
+  display: block;
+  margin-top: 10px;
+}
+
+.content input, .content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content button:hover {
+  background-color: orange;
+}
+

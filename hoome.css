@@ -1,4 +1,3 @@
-
 :root {
   --primary-color: #0c5434;
   --secondary-color: #EAEFE2;
@@ -16,56 +15,60 @@
   border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
- 
-
- body,
- #korte_omschrijving,
- #openingstijden {
-   overflow-x: auto;
- }
 
 
- main {
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   box-sizing: border-box;
-   margin-top: 2%;
-   margin-bottom: 2%;
- }
-
- #content_top {
-   display: flex;
-   justify-content: center;
-   gap: 2%;
-   height: 20vw;
- }
-
- #KO {
-   width: 50%;
-   height: 100%;
- }
-
- #korte_omschrijving {
-   background-color: aqua;
-   width: 100%;
- }
-
- #content_bottom {
-   display: flex;
-   justify-content: center;
-   gap: 2%;
-   height: 20vw;
- }
-
- #OT1 {
-   width: 50%;
-   height: 100%;
- }
+body,
+#korte_omschrijving,
+#openingstijden {
+  overflow-x: auto;
+}
 
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
+#content_top {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
+
+#KO {
+  width: 50%;
+  height: 100%;
+}
+
+#korte_omschrijving {
+  background-color: aqua;
+  width: 100%;
+}
+
+#content_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
+
+#OT1 {
+  width: 50%;
+  height: 100%;
+}
+
+#OT1 {
+  width: 50%;
+  height: 100%;
+}
 
 
 body,
