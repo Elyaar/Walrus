@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact page</title>
+    <title>Contact Page - De Café Walrus</title>
     <link rel="stylesheet" href="contact.css">
-
 </head>
 
 <body>
@@ -14,28 +13,41 @@
 
     ?>
 
-    <div class="content-1">
-        <h2>hoe kunnen wij jouw helpen</h2>
-        <h3>neem contact met ons op</h3>
-        <h4>of bel ons 0515438100 voor onse sneek locatie of bel 0582137740 voor de hereveen locatie</h4>
+    <div class="content">
+        <h2>Hoe kunnen wij jou helpen?</h2>
+        <h3>Neem contact met ons op</h3>
+        <p>Bel ons: 0515438100 voor Sneek locatie of 0582137740 voor Heerenveen locatie</p>
         <hr>
-        <p>name:<input type="text" name="name"></p>
-        <p>e-mail: <input type="email" name="e-mail"></p>
-        <p>ur reaction title<br><input type="text"></p>
-        <p>please choose a loctaion <br> <input type="radio" checked> sneek <br> <input type="radio"> hereveen</p>
-        <p>please put ur feedback here <input type="text" name="feedback"></p>
-        <a href="verzonden.html"> <button>verzenden</button></a>
-        <hr>
-        <p>text here</p>
-        <p>text here</p>
-        <img src="#" alt="put image here">
-    </div>
-    <hr>
-    <footer>
-        <?php include 'footer.php';
 
-        ?>
-    </footer>
+        <div class="content">
+            <fieldset>
+                <h2>Contact Formulier</h2>
+
+                <label>Naam:</label>
+                <input type="text" placeholder="Voer je naam in" required><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Voer je e-mail in" required><br>
+
+                <label for="title">Onderwerp:</label>
+                <input type="text" placeholder="Titel van je bericht" required><br>
+
+                <p>Kies een locatie:</p>
+                <input type="radio" checked> Sneek
+                <input type="radio"> Heerenveen
+
+                <label for="feedback">Feedback:</label>
+                <textarea placeholder="Schrijf je feedback hier" rows="4" required></textarea><br>
+                <button type="submit"><a href="./hoome.php">verzenden</a></button>
+
+            </fieldset>
+        </div>
+        <hr>
+    </div>
+
+    <?php include 'footer.php';
+
+    ?>
 </body>
 
 </html>
