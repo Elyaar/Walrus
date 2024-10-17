@@ -12,7 +12,6 @@
 </head>
 <?php
 
-
 ?>
 <body>
     <?php include 'header.php';
@@ -173,9 +172,9 @@
 
         </section>
         <section class="chalk-board">
-            <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Maaltijd Salades</h1>
+            <h1 style="display: flex; justify-content: center;">Maaltijd Salades</h1>
             <div class="prices">
-                <ul id="caveat-brush-regular">
+                <ul>
                     <li>Caesar Salade</li>
                     <li>Salade Geitekaas</li>
                     <li>Salade Zalm</li>
@@ -197,12 +196,12 @@
     </div>
     <br>
     <section class="chalk-board">
-        <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Lunch</h1>
+        <h1 style="display: flex; justify-content: center;">Lunch</h1>
         <div class="chalk-board-content">
             <div>
-                <h2 id="caveat-brush-regular">Broodjes</h2>
+                <h2>Broodjes</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>Twee kroketten</li>
                         <li>Rundercarpaccio</li>
                         <li>Vitello Tonato</li>
@@ -225,9 +224,9 @@
                     </ul>
                 </div>
                 <br>
-                <h2 id="caveat-brush-regular">Lunch Specials</h2>
+                <h2>Lunch Specials</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>Daydream</li>
                         <li>Clubsandwich</li>
                         <li>Hollandse Bal Gehakt</li>
@@ -249,9 +248,9 @@
                 </div>
             </div>
             <div>
-                <h2 id="caveat-brush-regular">Tosti's</h2>
+                <h2>Tosti's</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>3 Dubbles Tosti</li>
                         <li>Tosti Kil</li>
                         <li>Tosti Caprese</li>
@@ -264,9 +263,9 @@
                     </ul>
                 </div>
                 <br>
-                <h2 id="caveat-brush-regular">Kids Menu</h2>
+                <h2>Kids Menu</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>Biefstuk Of Witvis</li>
                         <li>Boevenbord</li>
                         <li>Croissantje</li>
