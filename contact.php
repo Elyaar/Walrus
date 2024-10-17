@@ -17,20 +17,34 @@
         <h2>Hoe kunnen wij jou helpen?</h2>
         <h3>Neem contact met ons op</h3>
         <p>Bel ons: 0515438100 voor Sneek locatie of 0582137740 voor Heerenveen locatie</p>
+        <p>
+            <?php $name = $_POST["name"];
+            echo $name;
+            ?>
+        </p>
+        <p><?php $email = $_POST["e-mail"];
+            echo $email
+            ?>
+        </p>
+        <p><?php $title = $_POST["title"];
+            echo $title ?> </p>
+
+
         <hr>
 
-        <div class="content">
+        <form class="content" method="post">
             <fieldset>
                 <h2>Contact Formulier</h2>
 
                 <label>Naam:</label>
-                <input type="text" placeholder="Voer je naam in" required><br>
+                <input type="text" placeholder="Voer je naam in" name="name" value="my_name" required><br>
+                <input type="submit" name="go" value="submit">
 
                 <label for="email">E-mail:</label>
-                <input type="email" placeholder="Voer je e-mail in" required><br>
+                <input type="email" placeholder="Voer je e-mail in" name="e-mail" value="e-mail" required><br>
 
                 <label for="title">Onderwerp:</label>
-                <input type="text" placeholder="Titel van je bericht" required><br>
+                <input type="text" placeholder="Titel van je bericht" name="title" value="title" required><br>
 
                 <p>Kies een locatie:</p>
                 <input type="radio" checked> Sneek
@@ -41,7 +55,7 @@
                 <button type="submit"><a href="./hoome.php">verzenden</a></button>
 
             </fieldset>
-        </div>
+        </form>
         <hr>
     </div>
 

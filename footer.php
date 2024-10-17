@@ -24,9 +24,9 @@
         <div class="section">
             <div class="footer-element">
                 <h2>contact</h2>
-                <p> ons telefoon number: 058 - 21 377 40 <br>
+                <p> telefoon: 058 - 21 377 40 <br>
                     email: info@dewalrusleeuwarden.nl <br>
-                    onse locatie: Gouverneursplein 37
+                    locatie: Gouverneursplein 37
                     8911 HH Leeuwarden
                 </p>
                 <hr>
