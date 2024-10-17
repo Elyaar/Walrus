@@ -21,15 +21,17 @@
   </div>
 
   <h2 class="t-2">Reserveer nu ook online</h2>
-  <img src="/smilie.webp" alt="man-werkt">
 
+  <img src=
 
+<h2> 
 
-
+<h2>
 
   <?php include 'footer.php';
 
   ?>
+  
 
 
   ?>
