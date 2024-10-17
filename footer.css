@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.footer-element{
+    margin: 10px;
+}
+.section {  
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0; 
+    /* width: 100%; */
+    /* height: 80px; */
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}

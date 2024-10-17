@@ -1,0 +1,87 @@
+.title-res {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.div-res {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: bisque;
+}
+
+
+
+.p-1 {
+  width: 200px;
+  /* margin-left: 170vh; */
+  border-radius: 8vh;
+  height: 40vh;
+  object-fit: contain;
+
+}
+
+.t-2 {
+  font-size: 26px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.d-1 {
+  display: inline-block;
+  margin-left: 170vh;
+}
+
+.rd-1 {
+  display: flex;
+  margin-top: -10vh;
+  margin-bottom: 10px;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.foto-1 {
+  width: 100%;
+  height: 50vh;
+  object-fit: contain;
+  margin-left: 20px;
+  vertical-align: top;
+  margin-top: 10vh;
+}
+
+div {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.btn-4 {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: -20vh;
+  padding-left: 50vh;
+  padding-right: 80vh;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+  justify-content: center;
+  font-size: 6vh;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.story-1 {
+  width: 80vh;
+}
+
+.span-1 {
+  font-weight: bold;
+}
