@@ -10,9 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>MenuKaart</title>
 </head>
-<?php
-
-?>
 <body>
     <?php include 'header.php';
 
@@ -299,5 +296,7 @@
 
     ?>
 </body>
-
 </html>
+<?php
+
+?>
