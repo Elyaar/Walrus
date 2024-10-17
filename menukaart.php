@@ -13,6 +13,11 @@
 <?php include 'header.php';
 
 ?>
+
+<?php
+
+
+?>
     <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 150px; height: 150px;"></a>
     <hr>
     <section class="chalk-board" id="dinnercard">
