@@ -18,21 +18,6 @@
         <h3>Neem contact met ons op</h3>
         <p>Bel ons: 0515438100 voor Sneek locatie of 0582137740 voor Heerenveen locatie</p>
         <p>
-            <?php $name = $_POST["name"];
-            echo $name;
-            ?>
-        </p>
-        <p><?php $email = $_POST["e-mail"];
-            echo $email
-            ?>
-        </p>
-        <p><?php $title = $_POST["title"];
-            echo $title ?> </p>
-        <p><?php $location = $_POST["Location"];
-            echo $location ?> </p>
-        <p><?php $feedback = $_POST["feedback"];
-            echo $feedback ?></p>
-        <hr>
 
         <form class="content" action="formhandeler.inc.php" method="post">
             <fieldset>
