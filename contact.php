@@ -28,7 +28,7 @@
                 <input type="text" placeholder="Titel van je bericht" name="title" value=" " required><br>
                 <p>Kies een locatie:</p>
                 <input class="radio_location" type="radio" name="Location" value="Sneek" checked> Sneek
-                <input class="radio_location" type="radio" name="Location" value="herenveen"> Heerenveen
+                <input class="radio_location" type="radio" name="Location" value="leeuwarden"> Leeuwarden
                 <label for="feedback">Feedback:</label>
                 <textarea placeholder="Schrijf je feedback hier" rows="4" name="feedback" required></textarea><br>
                 <input class="submit_input" type="submit" name="go" value="submit">
