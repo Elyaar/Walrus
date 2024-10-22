@@ -4,6 +4,11 @@ body {
 
 .footer-element{
     margin: 10px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+.google_maps{
+    border-radius: 20px;
 }
 .section {  
     padding: 20px;
@@ -16,4 +21,19 @@ body {
 .logo-footer{
     display: flex;
     justify-content: center;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 1px 2px gray;
+}
+.section h2{
+    display: flex;
+    justify-content: center;
+}
+.footer-element:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 5px 1px gray;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.9s;
 }

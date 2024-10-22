@@ -20,9 +20,15 @@
             <li><a href="menukaart.php">Menu</a></li>
             <li><a href="reserveren.php">Reserveren</a></li>
             <li class=" contact"><a href="contact.php">Contact</a></li>
-
-
-          </ul>
+      </div>
+      </ul>
+      <div class="dropdown">
+        <button class="dropbtn">taal</button>
+        <div class="dropdown-content">
+          <a href="#">nederlands</a>
+          <a href="#">engels</a>
+          <a href="#">duits</a>
+        </div>
 
         </nav>
       </div>

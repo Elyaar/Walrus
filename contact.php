@@ -10,55 +10,32 @@
 
 <body>
     <?php include 'header.php';
-
     ?>
 
-    <div class="content">
+    <div class="content-2">
         <h2>Hoe kunnen wij jou helpen?</h2>
         <h3>Neem contact met ons op</h3>
         <p>Bel ons: 0515438100 voor Sneek locatie of 0582137740 voor Heerenveen locatie</p>
         <p>
-            <?php $name = $_POST["name"];
-            echo $name;
-            ?>
-        </p>
-        <p><?php $email = $_POST["e-mail"];
-            echo $email
-            ?>
-        </p>
-        <p><?php $title = $_POST["title"];
-            echo $title ?> </p>
-
-
-        <hr>
-
-        <form class="content" method="post">
+        <form class="content" action="formhandeler.inc.php" method="post">
             <fieldset>
                 <h2>Contact Formulier</h2>
-
                 <label>Naam:</label>
-                <input type="text" placeholder="Voer je naam in" name="name" value="my_name" required><br>
-                <input type="submit" name="go" value="submit">
-
+                <input type="text" placeholder="Voer je naam in" name="name" value=" " required><br>
                 <label for="email">E-mail:</label>
-                <input type="email" placeholder="Voer je e-mail in" name="e-mail" value="e-mail" required><br>
-
+                <input type="email" placeholder="Voer je e-mail in" name="e-mail" value=" " required><br>
                 <label for="title">Onderwerp:</label>
-                <input type="text" placeholder="Titel van je bericht" name="title" value="title" required><br>
-
+                <input type="text" placeholder="Titel van je bericht" name="title" value=" " required><br>
                 <p>Kies een locatie:</p>
-                <input type="radio" checked> Sneek
-                <input type="radio"> Heerenveen
-
+                <input class="radio_location" type="radio" name="Location" value="Sneek" checked> Sneek
+                <input class="radio_location" type="radio" name="Location" value="leeuwarden"> Leeuwarden
                 <label for="feedback">Feedback:</label>
-                <textarea placeholder="Schrijf je feedback hier" rows="4" required></textarea><br>
-                <button type="submit"><a href="./hoome.php">verzenden</a></button>
-
+                <textarea placeholder="Schrijf je feedback hier" rows="4" name="feedback" required></textarea><br>
+                <input class="submit_input" type="submit" name="go" value="submit">
             </fieldset>
         </form>
         <hr>
     </div>
-
     <?php include 'footer.php';
 
     ?>
