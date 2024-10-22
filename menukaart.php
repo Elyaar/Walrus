@@ -10,12 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>MenuKaart</title>
 </head>
-
 <body>
     <?php include 'header.php';
 
     ?>
-    <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 150px; height: 150px;"></a>
+    <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 300px; height: auto;"></a>
     <hr>
     <section class="chalk-board" id="dinnercard">
         <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Diner</h1>
@@ -145,61 +144,64 @@
                 </div>
             </div>
         </div>
-    </section>
-    <br>
-    <div class="grid-div">
-        <section class="chalk-board">
-            <h1 style="display: flex; justify-content: center;">Soepen</h1>
-            <div class="prices">
-                <ul>
-                    <li>Broodplankje</li>
-                    <li>Romige Tomatensoep</li>
-                    <li>Romige Mosterdsoep</li>
-                    <li>Soto Ajam</li>
-                    <li>Proeverij van 3 soepen</li>
-                </ul>
 
-                <ul>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                </ul>
+        <br>
+        <hr>
+
+        <div class="grid-div">
+            <div>
+                <h1 style="display: flex; justify-content: center;">Soepen</h1>
+                <div class="prices">
+                    <ul>
+                        <li>Broodplankje</li>
+                        <li>Romige Tomatensoep</li>
+                        <li>Romige Mosterdsoep</li>
+                        <li>Soto Ajam</li>
+                        <li>Proeverij van 3 soepen</li>
+                    </ul>
+
+                    <ul>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                    </ul>
+                </div>
             </div>
+            <div>
+                <h1 style="display: flex; justify-content: center;">Maaltijd Salades</h1>
+                <div class="prices">
+                    <ul>
+                        <li>Caesar Salade</li>
+                        <li>Salade Geitekaas</li>
+                        <li>Salade Zalm</li>
+                        <li>Salade Carpaccio</li>
+                        <li>Salade Surf&Turf</li>
+                        <li>Aziatische Salade</li>
+                    </ul>
 
-        </section>
-        <section class="chalk-board">
-            <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Maaltijd Salades</h1>
-            <div class="prices">
-                <ul id="caveat-brush-regular">
-                    <li>Caesar Salade</li>
-                    <li>Salade Geitekaas</li>
-                    <li>Salade Zalm</li>
-                    <li>Salade Carpaccio</li>
-                    <li>Salade Surf&Turf</li>
-                    <li>Aziatische Salade</li>
-                </ul>
-
-                <ul>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                    <li>€2,45</li>
-                </ul>
+                    <ul>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                        <li>€2,45</li>
+                    </ul>
+                </div>
             </div>
-        </section>
-    </div>
-    <br>
-    <section class="chalk-board">
-        <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Lunch</h1>
+        </div>
+
+        <hr>
+        <br>
+
+        <h1 style="display: flex; justify-content: center;">Lunch</h1>
         <div class="chalk-board-content">
             <div>
-                <h2 id="caveat-brush-regular">Broodjes</h2>
+                <h2>Broodjes</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>Twee kroketten</li>
                         <li>Rundercarpaccio</li>
                         <li>Vitello Tonato</li>
@@ -222,9 +224,9 @@
                     </ul>
                 </div>
                 <br>
-                <h2 id="caveat-brush-regular">Lunch Specials</h2>
+                <h2>Lunch Specials</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>Daydream</li>
                         <li>Clubsandwich</li>
                         <li>Hollandse Bal Gehakt</li>
@@ -246,9 +248,9 @@
                 </div>
             </div>
             <div>
-                <h2 id="caveat-brush-regular">Tosti's</h2>
+                <h2>Tosti's</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>3 Dubbles Tosti</li>
                         <li>Tosti Kil</li>
                         <li>Tosti Caprese</li>
@@ -261,9 +263,9 @@
                     </ul>
                 </div>
                 <br>
-                <h2 id="caveat-brush-regular">Kids Menu</h2>
+                <h2>Kids Menu</h2>
                 <div class="prices">
-                    <ul id="caveat-brush-regular">
+                    <ul>
                         <li>Biefstuk Of Witvis</li>
                         <li>Boevenbord</li>
                         <li>Croissantje</li>
@@ -297,5 +299,7 @@
 
     ?>
 </body>
-
 </html>
+<?php
+
+?>
