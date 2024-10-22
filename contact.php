@@ -26,9 +26,16 @@
                 <input type="email" placeholder="Voer je e-mail in" name="e-mail" value=" " class="input-2" required><br>
                 <label for="title">Onderwerp:</label>
                 <input type="text" placeholder="Titel van je bericht" name="title" value=" " class="input-2" required><br>
+
+
+
                 <p>Kies een locatie:</p>
                 <input class="radio_location" type="radio" name="Location" value="Sneek" checked> Sneek
                 <input class="radio_location" type="radio" name="Location" value="leeuwarden"> Leeuwarden
+
+
+
+
                 <label for="feedback">Feedback:</label>
                 <textarea placeholder="Schrijf je feedback hier" rows="4" name="feedback" class="input-2" required></textarea><br>
                 <input class="submit_input" type="submit" name="go" value="submit">
