@@ -45,12 +45,11 @@
 }
 
 .foto-1 {
-  width: 1000px;
-  height: 50vh;
-  object-fit: contain;
+  width: 100vh;
+  height: 75vh;
   margin-left: 20px;
-  vertical-align: top;
   margin-top: 10vh;
+  border-radius: 10vh;
 }
 
 div {
