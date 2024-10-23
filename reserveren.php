@@ -72,21 +72,7 @@
 
 
     </div>
-
-    <div class="info-3">
-      <img src="img/yeahtoch.JPEG" alt="foto" class=" foto-1">
-    </div>
-    <div class="info-4">
-      <h2 class="story-1">
-        <span class=" span-1">  Het verhaal van Wally's Welkom"</span>
-
-        Er was eens een walrus genaamd Wally, de vriendelijkste gastheer die je ooit zou ontmoeten. Wally was dol op gezelschap en hield van het idee om vrienden samen te brengen voor een heerlijke maaltijd. Daarom opende hij een restaurant aan zee, waar iedereen welkom was om te genieten van goed eten en gezelligheid.
-
-      Elke avond stond Wally bij de deur om gasten te begroeten, altijd met een brede glimlach en een warme knipoog. "Welkom bij Wally's," zei hij. "Ik heb al een tafeltje voor je klaarstaan. Voel je thuis!"
-
-        Net zoals Wally altijd klaarstond voor zijn gasten, zorgen wij ervoor dat je je bij ons direct welkom voelt. Wil je ook genieten van een avond vol plezier en lekkernijen? Reserveer nu je tafel en laat Wally weten dat je onderweg bent. Wij zorgen voor de rest!
-      </h2>
-    </div>
+    <img src="img/yeahtoch.JPEG" alt="foto" class=" foto-1">
   </div>
 
 
