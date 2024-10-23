@@ -12,10 +12,6 @@
     gap: 15px;
 }
 
-body{
-    margin: 0;
-}
-
 .chalk-board{
     border: 50px solid transparent;
     border-image: url(img/Woodframe_chalkboard.jpg) 50 round;
