@@ -1,3 +1,5 @@
+
+
 .chalk-board-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,13 +21,13 @@
 
     padding: 50px 50px 50px 50px;
 
-    font-family: "Caveat Brush", cursive;
+    font-family: "Caveat Brush";
     font-weight: 400;
     font-style: normal;
     color: white;
 }
 
-ul{
+.bullet-none{
     list-style-type: none;
     padding: 20px 20px 20px 20px;
     margin: 0px 0px 0px 0px;

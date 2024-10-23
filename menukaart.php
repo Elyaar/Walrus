@@ -11,7 +11,7 @@
     <title>MenuKaart</title>
 </head>
 <body>
-    <?php include 'header.php';
+    <?php include 'header.html';
 
     ?>
     <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 300px; height: auto;"></a>
@@ -22,7 +22,7 @@
             <div>
                 <h2 id="caveat-brush-regular">Dessert</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>sticky tofee cake</li>
                         <li>vloeibaar chocolade taartje</li>
                         <li>Eten Mess</li>
@@ -31,7 +31,7 @@
                         <li>Lekkers voor bij de koffie</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                         <li>€2,45</li>
@@ -43,12 +43,12 @@
                 <br>
                 <h2>Vegetarisch Gerechten</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Float taart</li>
                         <li>Pasta pesto</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                     </ul>
@@ -58,12 +58,12 @@
             <div>
                 <h2>Vis Gerechten</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Thaise Groentecurry</li>
                         <li>Lekkerbekje</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                     </ul>
@@ -71,7 +71,7 @@
                 <br>
                 <h2>Vlees Gerechten</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Mc Walrusburger</li>
                         <li>Kippendij Saté</li>
                         <li>Mixed Grill</li>
@@ -80,7 +80,7 @@
                         <li>Schnitzel van varken</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                         <li>€2,45</li>
@@ -94,7 +94,7 @@
             <div>
                 <h2>Voor Gerechten</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Runder Carpaccio</li>
                         <li>Vitello Tonato</li>
                         <li>Noodles Salade</li>
@@ -103,7 +103,7 @@
                         <li>Proeverij van voorgerechten</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                         <li>€2,45</li>
@@ -115,7 +115,7 @@
                 <br>
                 <h2>Kids Menu</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Frikandel, Kroket, Kipnuggets of Spiesje van Bitterbal, Frikandel en Kipnugget</li>
                         <li>KinderSoepje</li>
                         <li>Croissantje</li>
@@ -128,7 +128,7 @@
                         <li>Mini Hamburger, Doe er op wat jij lekker vind</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <br>
                         <li>€2,45</li>
@@ -152,7 +152,7 @@
             <div>
                 <h1 style="display: flex; justify-content: center;">Soepen</h1>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Broodplankje</li>
                         <li>Romige Tomatensoep</li>
                         <li>Romige Mosterdsoep</li>
@@ -160,7 +160,7 @@
                         <li>Proeverij van 3 soepen</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                         <li>€2,45</li>
@@ -172,7 +172,7 @@
             <div>
                 <h1 style="display: flex; justify-content: center;">Maaltijd Salades</h1>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Caesar Salade</li>
                         <li>Salade Geitekaas</li>
                         <li>Salade Zalm</li>
@@ -181,7 +181,7 @@
                         <li>Aziatische Salade</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€2,45</li>
                         <li>€2,45</li>
                         <li>€2,45</li>
@@ -201,7 +201,7 @@
             <div>
                 <h2>Broodjes</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Twee kroketten</li>
                         <li>Rundercarpaccio</li>
                         <li>Vitello Tonato</li>
@@ -212,7 +212,7 @@
                         <li>Brie Uit De Oven</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€20,-</li>
                         <li>€20,-</li>
                         <li>€20,-</li>
@@ -226,7 +226,7 @@
                 <br>
                 <h2>Lunch Specials</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Daydream</li>
                         <li>Clubsandwich</li>
                         <li>Hollandse Bal Gehakt</li>
@@ -236,7 +236,7 @@
                         <li>Plaattaart</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€17,-</li>
                         <li>€17,-</li>
                         <li>€17,-</li>
@@ -250,13 +250,13 @@
             <div>
                 <h2>Tosti's</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>3 Dubbles Tosti</li>
                         <li>Tosti Kil</li>
                         <li>Tosti Caprese</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€5,-</li>
                         <li>€5,-</li>
                         <li>€5,-</li>
@@ -265,7 +265,7 @@
                 <br>
                 <h2>Kids Menu</h2>
                 <div class="prices">
-                    <ul>
+                    <ul class="bullet-none">
                         <li>Biefstuk Of Witvis</li>
                         <li>Boevenbord</li>
                         <li>Croissantje</li>
@@ -278,7 +278,7 @@
                         <li>Mini Hamburger</li>
                     </ul>
 
-                    <ul>
+                    <ul class="bullet-none">
                         <li>€15,-</li>
                         <li>€15,-</li>
                         <li>€15,-</li>
