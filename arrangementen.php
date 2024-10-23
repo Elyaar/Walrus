@@ -1,3 +1,3 @@
-<?php include 'header.php'; ?>
+<?php include 'header.html'; ?>
 <?php include 'arrangementen.html'; ?>
-<?php include 'footer.php';?>
+<?php include 'footer.html';?>
