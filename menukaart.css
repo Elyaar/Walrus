@@ -35,3 +35,6 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+body{
+    background-color: #780116;
+}
