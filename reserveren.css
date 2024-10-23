@@ -84,7 +84,9 @@ div {
 .span-1 {
   font-weight: bold;
 }
-body{
+
+
+body {
   background-color: #B00222;
 }
 
@@ -92,5 +94,4 @@ body{
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
-
 }
