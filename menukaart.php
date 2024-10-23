@@ -11,7 +11,7 @@
     <title>MenuKaart</title>
 </head>
 <body>
-    <?php include 'header.php';
+    <?php include 'header.html';
 
     ?>
     <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 300px; height: auto;"></a>
