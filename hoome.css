@@ -115,6 +115,10 @@ main {
   margin-bottom: 2%;
 }
 
+body, #korte_omschrijving, #openingstijden {
+  overflow-x: auto;
+}
+
 #home_content_top {
   display: flex;
   justify-content: center;
