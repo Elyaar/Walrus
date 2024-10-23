@@ -13,7 +13,10 @@
 
   ?>
 
+
   <?php
+  date_default_timezone_set('Europe/Amsterdam');
+
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $datum = $_POST['datum'];
 
