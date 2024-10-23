@@ -5,7 +5,7 @@
 }
 
 .top {
-  display: flex;
+  display : flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -78,7 +78,7 @@ p {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -92,6 +92,7 @@ p {
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
@@ -129,7 +130,7 @@ main {
 #korte_omschrijving {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
-  width: 100% ;
+  width: 100%;
 }
 
 #korte_omschrijving a {
@@ -162,39 +163,44 @@ main {
 
 }
 
-.footer-element{
+.footer-element {
   margin: 10px;
   border-radius: 20px;
   color: rgb(0, 0, 0);
 }
-.google_maps{
+
+.google_maps {
   border-radius: 20px;
 }
-.section {  
+
+.section {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  bottom: 0; 
+  bottom: 0;
   /* width: 100%; */
   /* height: 80px; */
 }
-.logo-footer{
+
+.logo-footer {
   display: flex;
   justify-content: center;
   border-radius: 25px;
   background-color: whitesmoke;
   box-shadow: 5px 5px 1px 2px gray;
 }
-.section h2{
+
+.section h2 {
   display: flex;
   justify-content: center;
 }
-.footer-element:hover{
+
+.footer-element:hover {
   background-color: black;
   color: white;
   box-shadow: 10px 10px 5px 1px gray;
   margin: 10px;
   border-radius: 20px;
   transition: 0.9s;
-  
+
 }
