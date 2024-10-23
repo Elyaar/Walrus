@@ -1,0 +1,9 @@
+.text-1{
+    border-radius: 10px;
+    background-color: red;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
