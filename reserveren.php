@@ -77,7 +77,7 @@
     <div class="info-2">
       <div>
         <label for="Date" class="btn-2">Datum*: </label>
-        <input type="date" class="input-2" required>
+        <input type="date" class="input-2" required name="datum">
       </div>
       <div>
         <label for="tijd">Kies een tijd:</label>
