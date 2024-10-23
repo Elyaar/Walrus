@@ -85,11 +85,12 @@ div {
   font-weight: bold;
 }
 body{
-  background-color: #780116;
+  background-color: #B00222;
 }
 
 .info-1 {
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
+
 }
