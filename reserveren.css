@@ -1,5 +1,5 @@
 .title-res {
-  font-size: 4000px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   color: black;
@@ -45,17 +45,17 @@
 }
 
 .foto-1 {
-  width: 1000vh;
-  height: 75vh;
+  width: 80vh;
+  height: 70vh;
   object-fit: contain;
   margin-left: 20px;
   margin-top: 10vh;
 }
 
-/* div {
+div {
   margin-top: 10vh;
   margin-bottom: 10vh;
-} */
+}
 
 .btn-4 {
   width: 100px;

@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $stmt->execute([$username, $pwd, $title_2, $loc, $feed]);
 
-        $pdo = null;
+        $pdo = null; 
         $stmt = null;
 
         header("Location: hoome.php");
