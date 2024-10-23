@@ -33,13 +33,37 @@
           <img id="OT1" src="img/walrus2.png" alt="foto2">
           <div id="openingstijden">
             <h1>Openingstijden</h1>
-            <P>Maandag: 10:00 - 23:00</P>
-            <P>Dinsdag: 10:00 - 23:00</P>
-            <P>Woensdag: 10:00 - 23:00</P>
-            <P>Donderdag: 10:00 - 23:00</P>
-            <P>Vrijdag: 10:00 - 23:00</P>
-            <P>Zaterdag: 10:00 - 23:00</P>
-            <P>Zondag: 10:00 - 23:00</P>
+            <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "cafe_de_walrus";
+
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            
+            if ($conn->connect_error) {
+                die("Connection failed: ". $conn->connect_error);
+            }
+
+            $sql = "SELECT * FROM openingstijden";
+            result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+              while($row = $result->fetch_assoc()) {
+                echo "Maandag:" . $row["maandag"] . "<br>";
+                echo "Dinsdag:". $row["dinsdag"]. "<br>";
+                echo "Woensdag:". $row["woensdag"]. "<br>";
+                echo "Donderdag:". $row["donderdag"]. "<br>";
+                echo "Vrijdag:". $row["vrijdag"]. "<br>";
+                echo "Zaterdag:". $row["zaterdag"]. "<br>";
+                echo "Zondag:". $row["zondag"]. "<br><br>";
+            }
+            } else {
+              echo "0 results";
+          }
+          
+          $conn->close();
+            ?>
           </div>
           <img id="OT2" src="img/walrus3.png" alt="foto3">
         </div>
