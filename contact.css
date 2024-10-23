@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: #780116;
   color: white;
 }
 .radio_location{
@@ -18,10 +18,10 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px gray;
-  background: #353535;
+  background: #DB7C26;
 }
 .content-2{
-  background-color: black;
+  background-color: #C32F27;
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -51,7 +51,7 @@ body {
 .content .submit_input {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: white;
+  background-color: whites;
   color: rgb(37, 37, 37);
   border: none;
   border-radius: 5px;
