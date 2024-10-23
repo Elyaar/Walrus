@@ -84,10 +84,15 @@ div {
 .span-1 {
   font-weight: bold;
 }
+<<<<<<< HEAD
+body{
+  background-color: #780116;
+=======
 
 .info-1 {
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
 
+>>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
 }

@@ -14,9 +14,38 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
+.div-header {
+  height: 150px;
+  width: 800px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  background-color: red;
+  margin-left: 100px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+
+
+
+
+>>>>>>> Stashed changes
+}
+
+<<<<<<< HEAD
+body{
+  background-color: #780116;
+=======
+=======
+>>>>>>> fce6438b5f782a42a34886b7598bb01bfebe3f3e
 .logo {
   width: 25vw;
   margin-top: -4vw;
+>>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
 }
 
 .green {
@@ -132,9 +161,18 @@ body, #korte_omschrijving, #openingstijden {
 }
 
 #korte_omschrijving {
+<<<<<<< HEAD
+  background-color: #DB7C26;
+  width: 100%;
+=======
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
+<<<<<<< HEAD
+  width: 100% ;
+>>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
+=======
   width: 100%;
+>>>>>>> fce6438b5f782a42a34886b7598bb01bfebe3f3e
 }
 
 #korte_omschrijving a {
@@ -145,7 +183,50 @@ body, #korte_omschrijving, #openingstijden {
   color: var(--secondary-color);
 }
 
+<<<<<<< HEAD
+#OT1 {
+  width: 50%;
+  height: 100%;
+}
+
+
+body,
+#korte_omschrijving,
+#openingstijden {
+  overflow-x: auto;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#content_top {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  height: 20vw;
+}
+
+#KO {
+  width: 50%;
+  height: 100%;
+}
+
+#korte_omschrijving {
+  background-color: #DB7C26;
+  width: 100%;
+}
+
+#content_bottom {
+=======
 #home_content_bottom {
+>>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
   display: flex;
   justify-content: center;
   gap: 2%;
@@ -176,8 +257,23 @@ body, #korte_omschrijving, #openingstijden {
 .google_maps {
   border-radius: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.footer .map {
+  flex: 1;
+  margin: 10px;
+}
+
+input {
+  box-shadow: 5px 5px 10px 1px black;
+  border-radius: 10px;
+=======
+.section {  
+=======
 
 .section {
+>>>>>>> fce6438b5f782a42a34886b7598bb01bfebe3f3e
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -192,6 +288,7 @@ body, #korte_omschrijving, #openingstijden {
   border-radius: 25px;
   background-color: whitesmoke;
   box-shadow: 5px 5px 1px 2px gray;
+>>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
 }
 
 .section h2 {

@@ -10,11 +10,11 @@
 
 <body>
     <div class="text-1">
-        <h1>uw reactie is opgeslagen</h1> <br>
-        <h2>en uw reactie is aangekomen</h2> <br>
+        <h1>uw reactie is opgeslagen</h1>
+        <h2>en uw reactie is aangekomen</h2>
         <h2>bedankt voor de contact en we gaan er zo snel mogelijk mee aan de gang
-
-        </h2> <br>
+        </h2>
+        <a href="hoome.php"><button type="button">Home</button></a>
     </div>
 </body>
 
