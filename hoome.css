@@ -4,17 +4,17 @@
   --tertiary-color: #65463E;
 }
 
-<<<<<<< Updated upstream
 .top {
-  display: flex;
+  display : flex;
   justify-content: space-between;
   align-items: center;
-=======
+}
 
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
 .div-header {
   height: 150px;
   width: 800px;
@@ -40,6 +40,8 @@ p {
 body{
   background-color: #780116;
 =======
+=======
+>>>>>>> fce6438b5f782a42a34886b7598bb01bfebe3f3e
 .logo {
   width: 25vw;
   margin-top: -4vw;
@@ -105,7 +107,7 @@ body{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -119,6 +121,7 @@ body{
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
@@ -141,6 +144,10 @@ main {
   margin-bottom: 2%;
 }
 
+body, #korte_omschrijving, #openingstijden {
+  overflow-x: auto;
+}
+
 #home_content_top {
   display: flex;
   justify-content: center;
@@ -160,8 +167,12 @@ main {
 =======
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
+<<<<<<< HEAD
   width: 100% ;
 >>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
+=======
+  width: 100%;
+>>>>>>> fce6438b5f782a42a34886b7598bb01bfebe3f3e
 }
 
 #korte_omschrijving a {
@@ -237,14 +248,16 @@ main {
 
 }
 
-.footer-element{
+.footer-element {
   margin: 10px;
   border-radius: 20px;
   color: rgb(0, 0, 0);
 }
-.google_maps{
+
+.google_maps {
   border-radius: 20px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 .footer .map {
@@ -257,14 +270,19 @@ input {
   border-radius: 10px;
 =======
 .section {  
+=======
+
+.section {
+>>>>>>> fce6438b5f782a42a34886b7598bb01bfebe3f3e
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  bottom: 0; 
+  bottom: 0;
   /* width: 100%; */
   /* height: 80px; */
 }
-.logo-footer{
+
+.logo-footer {
   display: flex;
   justify-content: center;
   border-radius: 25px;
@@ -272,15 +290,18 @@ input {
   box-shadow: 5px 5px 1px 2px gray;
 >>>>>>> 2559ff965c3be80caf520a9f49f8fcde69e1aaef
 }
-.section h2{
+
+.section h2 {
   display: flex;
   justify-content: center;
 }
-.footer-element:hover{
+
+.footer-element:hover {
   background-color: black;
   color: white;
   box-shadow: 10px 10px 5px 1px gray;
   margin: 10px;
   border-radius: 20px;
   transition: 0.9s;
+
 }

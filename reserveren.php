@@ -14,24 +14,21 @@
   ?>
 
   <?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $datum = $_POST['datum'];
 
-  if ($_SERVER["REQUEST_METHOD"]=="POST"){
+    if (strtotime($datum) < time()) {
+      echo "<div class='error'>U kunt geen reservering maken voor een datum in het verleden. Kies een andere datum.</div>";
+    } else {
+      $naam = $_POST['Naam'];
+      $email = $_POST['E-mail'];
 
-    $datum= $_POST['datum'];
-
-
-    if (strtotime($datum) <time()){
-    echo "<div class='error'>U kunt geen reservering maken voor een datum in het verleden. Kies een andere datum.</div>";
-  }
-  
-  else{($_SERVER["REQUEST_METHOD"] == "POST") 
-    $naam = $_POST['Naam'];
-    $email = $_POST['E-mail'];
-
-    echo "<div class='confirmation'>Bedankt voor uw reservering, $naam! We hebben een bevestiging gestuurd naar $email</div>";
-    // Code komt hier later
+      echo "<div class='confirmation'>Bedankt voor uw reservering, $naam! We hebben een bevestiging gestuurd naar $email</div>";
+      // Code komt hier later
+    }
   }
   ?>
+
 
   <div class="div-res">
     <h1 class="title-res">
@@ -56,7 +53,7 @@
 
         <div class="Name-div"> <label for="Name" class="btn-1">
             Naam*:</label>
-          <input type="text" class="input-1" placeholder="Naam" name="Naam" required >
+          <input type="text" class="input-1" placeholder="Naam" name="Naam" required>
         </div>
 
 
@@ -66,7 +63,7 @@
         </div>
         <div>
           <label for="Tel" class="btn-1">Tel*:</label>
-          <input type="text" class="input-1" placeholder="Tel"  name="Tel" required>
+          <input type="text" class="input-1" placeholder="Tel" name="Tel" required>
 
         </div>
         <div>
