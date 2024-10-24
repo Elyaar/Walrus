@@ -35,11 +35,11 @@
       </nav>
     </div>
     <div class="dropdown">
-      <button class="dropbtn">taal</button>
+      <button class="dropbtn">Taal</button>
       <div class="dropdown-content">
-        <a href="#">nederlands</a>
-        <a href="#">engels</a>
-        <a href="#">duits</a>
+        <a href="#">NL</a>
+        <a href="#">EN</a>
+        <a href="#">DE</a>
       </div>
   </section>
 </body>

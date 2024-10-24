@@ -22,7 +22,7 @@
                     diner en een gezellige borrel. Dus kom tot rust in de gezelligste drukte van Noord
                     Nederland. Of doe er juist een schepje bovenop en spring zelf op de tafel.
                     <br><br>
-                    Kom langs of <a href="Reserveren.html">reserveer</a> bij één van onze restaurants en ervaar het zelf!
+                    Kom langs of <a href="reserveren.php">reserveer</a> bij één van onze restaurants en ervaar het zelf!
                 </p>
             </div>
         </div>
@@ -47,7 +47,7 @@
 
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
-                        echo $row["dag"] . ": " . $row["openingsuur"] . " - " . $row["sluitingsuur"] . "<br>";
+                        echo $row["dag"] . ": " . $row["openingsuur"] . " - " . $row["sluitingsuur"] . "<br>" . "<br>";
                     }
                 } else {
                     echo "0 results";
