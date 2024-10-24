@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <?php include 'header.html';
+  <?php include 'header.php';
 
   ?>
 
@@ -44,7 +44,7 @@
 
     <div class="info-1">
       <form action="" method="POST">
-        <div>
+        <div class="div-r1">
           <lable class="btn-2">Reserveer voor : </lable>
           <select name="type_reservering" required>
             <option value="">Kies een optie</option>
@@ -54,43 +54,40 @@
         </div>
 
 
-        <div class="Name-div"> <label for="Name" class="btn-1">
+        <div class="div-r1"> <label for="Name" class="btn-1">
             Naam*:</label>
           <input type="text" class="input-1" placeholder="Naam" name="Naam" required>
         </div>
 
 
-        <div>
+        <div class="div-r1">
           <label class="btn-1">E-mail*:</label>
           <input type="text" class="input-1" placeholder="E-mail" name="E-mail" required>
         </div>
-        <div>
+        <div class="div-r1">
           <label for="Tel" class="btn-1">Tel*:</label>
           <input type="text" class="input-1" placeholder="Tel" name="Tel" required>
 
         </div>
-        <div>
+        <div class="div-r1">
           <label class="btn-2">aantal*:</label>
           <input type="number" class="input-2" min="1" max="10" required>
         </div>
     </div>
-    <div class="info-2">
+    <div class="div-r1">
       <div>
         <label for="Date" class="btn-2">Datum*: </label>
-        <input type="date" class="input-2" required>
+        <input type="date" class="input-2" required name="datum">
       </div>
-      <div>
-        <label for="tijd">Kies een tijd:</label>
+      <div class="div-r1"> <label for="tijd">Kies een tijd:</label>
         <input type="time" id="tijd" name="tijd" required>
       </div>
 
-      <div>
-        <label class="btn-2">Locatie: Leeuwarden</label>
+      <div class="div-r1"> <label class="btn-2">Locatie: Leeuwarden</label>
         <input type="radio" name="locatie" value="Leeuwarden" class="input-2">
       </div>
 
-      <div>
-        <label class="btn-2">Locatie: Sneek</label>
+      <div class="div-r1"> <label class="btn-2">Locatie: Sneek</label>
         <input type="radio" name="locatie" value="Sneek" class="input-2">
       </div>
 
@@ -102,7 +99,7 @@
   </form>
 
   </div>
-  <?php include 'footer.html';
+  <?php include 'footer.php';
 
   ?>
 </body>

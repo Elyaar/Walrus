@@ -69,13 +69,13 @@
                 Geef in het opmerkingenveld bij je reservering 'theater sneek' aan, en dan zorgen wij
                 dat het goed komt. Je kunt natuurlijk ook binnenlopen zonder te reserveren.
                 <br><br>
-                <a href="reserveren.php"><button>Reserveren</button></a>
+                <a href="reserveren.php"><button id="reserverenar">Reserveren</button></a>
                 <br><br>
                 HET MENU
                 <br><br>
                 Het Theater Menu bestaat uit 3-gangen en kost 34,50 per persoon.
                 <br><br>
-                <a href="menukaart.php"><button> Bekijk het menu</button></a>
+                <a href="menukaart.php"><button id="menuar"> Bekijk het menu</button></a>
             </p>
         </div>
     </main>
