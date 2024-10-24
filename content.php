@@ -57,7 +57,7 @@
                 ?>
             </div>
             <img id="OT2" src="img/walrus3.png" alt="foto3">
-        </div>
+        </div>                                          
     </main>
 </body>
 </html>
