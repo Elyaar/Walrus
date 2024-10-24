@@ -28,7 +28,7 @@
 .t-2 {
   font-size: 26px;
   margin-left: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 10vh;
 }
 
 .d-1 {
@@ -42,8 +42,7 @@
   margin-bottom: 10px;
   gap: 10px;
   margin-left: 50px;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+
 }
 
 .foto-1 {
@@ -54,7 +53,7 @@
   margin-top: 10vh;
 }
 
-div {}
+
 
 .btn-4 {
   width: 100px;
@@ -93,4 +92,9 @@ div {}
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
+}
+
+.div-r1 {
+  margin-top: 12vh;
+  margin-bottom: 10vh;
 }
