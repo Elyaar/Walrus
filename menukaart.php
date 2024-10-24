@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>MenuKaart</title>
 </head>
+
 <body>
-    <?php include 'header.html';
+    <?php include 'header.php';
 
     ?>
 
@@ -297,10 +298,11 @@
     </section>
     <br>
 
-    <?php include 'footer.html';
+    <?php include 'footer.php';
 
     ?>
 </body>
+
 </html>
 <?php
 

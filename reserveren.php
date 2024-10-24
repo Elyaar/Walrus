@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <?php include 'header.html';
+  <?php include 'header.php';
 
   ?>
 
@@ -79,15 +79,15 @@
         <label for="Date" class="btn-2">Datum*: </label>
         <input type="date" class="input-2" required name="datum">
       </div>
-      <div class="div-r1">        <label for="tijd">Kies een tijd:</label>
+      <div class="div-r1"> <label for="tijd">Kies een tijd:</label>
         <input type="time" id="tijd" name="tijd" required>
       </div>
 
-      <div class="div-r1">        <label class="btn-2">Locatie: Leeuwarden</label>
+      <div class="div-r1"> <label class="btn-2">Locatie: Leeuwarden</label>
         <input type="radio" name="locatie" value="Leeuwarden" class="input-2">
       </div>
 
-      <div class="div-r1">        <label class="btn-2">Locatie: Sneek</label>
+      <div class="div-r1"> <label class="btn-2">Locatie: Sneek</label>
         <input type="radio" name="locatie" value="Sneek" class="input-2">
       </div>
 
@@ -99,7 +99,7 @@
   </form>
 
   </div>
-  <?php include 'footer.html';
+  <?php include 'footer.php';
 
   ?>
 </body>

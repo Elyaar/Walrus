@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php include 'header.html';
+    <?php include 'header.php';
     ?>
 
     <div class="content-2">
@@ -43,7 +43,7 @@
         </form>
         <hr>
     </div>
-    <?php include 'footer.html';
+    <?php include 'footer.php';
 
     ?>
 </body>
