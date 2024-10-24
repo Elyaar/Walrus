@@ -21,11 +21,11 @@
             <fieldset>
                 <h2>Contact Formulier</h2>
                 <label>Naam:</label>
-                <input type="text" placeholder="Voer je naam in" name="name" value=" " class="input-2" required><br>
+                <input type="text" placeholder="Voer je naam in" name="name" class="input-2" required><br>
                 <label for="email">E-mail:</label>
-                <input type="email" placeholder="Voer je e-mail in" name="e-mail" value=" " class="input-2" required><br>
+                <input type="email" placeholder="Voer je e-mail in" name="e-mail" class="input-2" required><br>
                 <label for="title">Onderwerp:</label>
-                <input type="text" placeholder="Titel van je bericht" name="title" value=" " class="input-2" required><br>
+                <input type="text" placeholder="Titel van je bericht" name="title" class="input-2" required><br>
 
 
 
