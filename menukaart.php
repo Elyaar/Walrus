@@ -14,8 +14,8 @@
     <?php include 'header.html';
 
     ?>
-    <a href="#dinnercard"><img src="img/walrus3.png" alt="logolink" style="width: 300px; height: auto;"></a>
-    <hr>
+
+    <br>
     <section class="chalk-board" id="dinnercard">
         <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Diner</h1>
         <div class="chalk-board-content">
@@ -295,6 +295,8 @@
             </div>
         </div>
     </section>
+    <br>
+
     <?php include 'footer.html';
 
     ?>
