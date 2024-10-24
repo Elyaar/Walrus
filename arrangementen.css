@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #0c5434;
+    --secondary-color: #EAEFE2;
+    --tertiary-color: #65463E;
+  }
+
 main {
     margin-top: 1%;
     margin-left: 12%;
@@ -45,13 +51,17 @@ a{
     text-decoration: none;
 }
 
-button{
-    width: 15%;
-    height: 2.5vw;
-    font-size: 100%;
+#reserverenar, #menuar{
+    width: 17%;
+    height: 2.6vw;
+    font-size: 1.4vw;
+    font-weight: 600;
+    border: none;
+    border-radius: 1vw;
+    color: #FFFF;
+    background-color: var(--tertiary-color);
 }
 
-/* body{
-    background-color: #780116;
-    color: white;
-} */
+#reserverenar:hover, #menuar:hover{
+    background-color: var(--primary-color);
+}
