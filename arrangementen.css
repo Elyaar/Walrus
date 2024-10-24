@@ -40,9 +40,12 @@ p{
     height: 35vw;
 }
 
-a{
+a {
     color: gray;
     text-decoration: none;
+}
+
+a:hover {
 }
 
 button{
