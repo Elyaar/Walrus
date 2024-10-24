@@ -10,10 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>MenuKaart</title>
 </head>
+
 <body>
-    <?php include 'header.html';
+    <?php include 'header.php';
 
     ?>
+
+    <br>
     <section class="chalk-board" id="dinnercard">
         <h1 id="caveat-brush-regular" style="display: flex; justify-content: center;">Diner</h1>
         <div class="chalk-board-content">
@@ -293,10 +296,13 @@
             </div>
         </div>
     </section>
-    <?php include 'footer.html';
+    <br>
+
+    <?php include 'footer.php';
 
     ?>
 </body>
+
 </html>
 <?php
 
