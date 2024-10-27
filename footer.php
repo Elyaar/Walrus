@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footer</title>
-    <link rel="stylesheet" href="hoome.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
             </div>
             <div class="footer-element">
                 <h2>SOCIAL MEDIA</h2>
-                <p>make sure to follow us on instagram, facebook, and twitter</p>
+                <p>Make sure to follow us on instagram, facebook, and twitter</p>
                 <a class="facebook" href="https://www.facebook.com/DeWalrusLeeuwarden"><img src="img/facebook_black.png" height="50" width="50"></a>
                 <a class="insta" href="https://www.instagram.com/dewalrussneek/"><img src="img/insta_black.png" height="50" width="50"></a>
             </div>

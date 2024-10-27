@@ -26,9 +26,12 @@
                     Neem voor meer informatie of een offerte op maat contact met ons op!
                     <br><br>
                     De Walrus Sneek
+                    <br><br>
                     Tel: 0515 - 438 100
+                    <br><br>
                     E-mail: info@dewalrussneek.nl
-                    Reserveer direct bij De Walrus Sneek
+                    <br><br>
+                    <a href="reserveren.php">direct bij De Walrus Sneek</a>
                 </p>
             </div>
             <div id="bierar">
@@ -43,7 +46,7 @@
                     je gewoon weer met rust ;
                     <br><br>
                     Je kunt genieten van het Bierarrangement bij zowel De Walrus Leeuwarden als De
-                    Walrus Sneek.. <a href="Reserveren.html">Reserveren</a> voor €42,50 per persoon of neem voor meer informatie
+                    Walrus Sneek.. <a href="reserveren.php">Reserveren</a> voor €42,50 per persoon of neem voor meer informatie
                     contact met ons op.
                     <br><br>
                     De Walrus Sneek
@@ -66,13 +69,13 @@
                 Geef in het opmerkingenveld bij je reservering 'theater sneek' aan, en dan zorgen wij
                 dat het goed komt. Je kunt natuurlijk ook binnenlopen zonder te reserveren.
                 <br><br>
-                <a href="reserveren.php"><button>Reserveren</button></a>
+                <a href="reserveren.php"><button id="reserverenar">Reserveren</button></a>
                 <br><br>
                 HET MENU
                 <br><br>
                 Het Theater Menu bestaat uit 3-gangen en kost 34,50 per persoon.
                 <br><br>
-                <a href="menukaart.php"><button> Bekijk het menu</button></a>
+                <a href="menukaart.php"><button id="menuar"> Bekijk het menu</button></a>
             </p>
         </div>
     </main>
