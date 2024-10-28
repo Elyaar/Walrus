@@ -11,6 +11,8 @@
 <body>
   <?php include 'header.php';
 
+  include 'dbhinc.php';
+
   ?>
 
 
@@ -56,17 +58,17 @@
 
         <div class="div-r1"> <label for="Name" class="btn-1">
             Naam*:</label>
-          <input type="text" class="input-1" placeholder="Naam" name="Naam" required>
+          <input type="text" class="input-1" placeholder="Voornaam" name="Naam" required>
         </div>
 
 
         <div class="div-r1">
           <label class="btn-1">E-mail*:</label>
-          <input type="text" class="input-1" placeholder="E-mail" name="E-mail" required>
+          <input type="text" class="input-1" placeholder="E-mail" name="E-mail" required pattern=".*@.*\..*">
         </div>
         <div class="div-r1">
-          <label for="Tel" class="btn-1">Tel*:</label>
-          <input type="text" class="input-1" placeholder="Tel" name="Tel" required>
+          <label for="Tel" class="btn-1">Tel:opt </label>
+          <input type="number" class="input-1" placeholder="Telefoon nummer" name="Tel">
 
         </div>
         <div class="div-r1">
@@ -79,7 +81,11 @@
         <label for="Date" class="btn-2">Datum*: </label>
         <input type="date" class="input-2" required name="datum">
       </div>
+<<<<<<< Updated upstream
       <div class="div-r1"> <label for="tijd">Kies een tijd:</label>
+=======
+      <div class="div-r1"> <label for="tijd">Kies een tijd*:</label>
+>>>>>>> Stashed changes
         <input type="time" id="tijd" name="tijd" required>
       </div>
 
