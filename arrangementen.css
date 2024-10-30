@@ -93,6 +93,7 @@ a:hover {
     padding-top: 1vw, 0, -3vw, 0;
     background-color: var(--secondary-color);
     color: black;
+    font-size: large;
     text-align: center;
     transform: rotateY(180deg);
     overflow-x: auto;
