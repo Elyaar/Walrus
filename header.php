@@ -25,7 +25,7 @@
     <div class="navbar">
       <nav>
         <ul>
-          <li><a href="index.php">WELKOM</a></li>
+          <li><a href="home.php">WELKOM</a></li>
           <li><a href="arrangementen.php">ARRANGEMENTEN</a></li>
           <li><a href="menukaart.php">MENU</a></li>
           <li><a href="reserveren.php">RESERVEREN</a></li>
