@@ -16,7 +16,7 @@
   <section>
     <div class="top">
       <div class="logo">
-        <a href="index.php"><img class="logo" src="img/De walruss.png"></a>
+        <a href="home.php"><img class="logo" src="img/De walruss.png"></a>
       </div>
       <div class="green">
         <p></p>
@@ -25,7 +25,7 @@
     <div class="navbar">
       <nav>
         <ul>
-          <li><a href="index.php">WELKOM</a></li>
+          <li><a href="home.php">WELKOM</a></li>
           <li><a href="arrangementen.php">ARRANGEMENTEN</a></li>
           <li><a href="menukaart.php">MENU</a></li>
           <li><a href="reserveren.php">RESERVEREN</a></li>
