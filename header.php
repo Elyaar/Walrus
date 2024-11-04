@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
-  <link REL="stylesheet" href="home.css">
+  <link rel="stylesheet" href="home.css">
   <title>De Walrus</title>
 </head>
 
@@ -30,6 +30,8 @@
           <li><a href="menukaart.php">MENU</a></li>
           <li><a href="reserveren.php">RESERVEREN</a></li>
           <li><a href="contact.php">CONTACT</a></li>
+          <li><a href="login.php">Log in</a></li>
+
         </ul>
       </nav>
     </div>
