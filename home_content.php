@@ -18,12 +18,7 @@
           Zo, jij hebt smaak! Je bent namelijk beland op de website van Grand-Café De Walrus,
           de één-na-leukste plek in de omgeving Leeuwarden en Sneek. Wat zijn dan de leukste
           plekken? Nou, onze daadwerkelijke Grand-Café’s natuurlijk!
-          <br><br>
-          Beide restaurants zijn gevestigd in een groots sfeervol pand, op een prachtige locatie in
-          het centrum. Dé ideale plek voor een lekkere kop koffie, uitgebreide lunch, een heerlijk
-          diner en een gezellige borrel. Dus kom tot rust in de gezelligste drukte van Noord
-          Nederland. Of doe er juist een schepje bovenop en spring zelf op de tafel.
-          <br><br>
+
           Kom langs of <a href="reserveren.php">reserveer</a> bij één van onze restaurants en ervaar het zelf!
         </p>
       </div>
@@ -31,31 +26,41 @@
     <div id="home_content_bottom">
       <img id="OT1" src="img/walrus2.png" alt="foto2">
       <div id="openingstijden">
-        <h1>Openingstijden</h1>
+        <h1 class="h1-open">Openingstijden</h1>
+        <div class="h1-div">
+          Maandag: 09:00 - 17:00<br>
+          Dinsdag: 10:00 - 18:00<br>
+          Woensdag: 09:00 - 15:00<br>
+          Donderdag: 11:00 - 19:00<br>
+          Vrijdag: 09:00 - 17:30<br>
+          Zaterdag: 10:00 - 16:00<br>
+        </div>
+
         <?php
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "cafe_de_walrus";
+        // $servername = "localhost";
+        // $username = "root";
+        //$password = "";
+        //$dbname = "cafe_de_walrus";//
 
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        // $conn = new mysqli($servername, $username, $password, $dbname);
 
-        if ($conn->connect_error) {
-          die("Connection failed: " . $conn->connect_error);
-        }
+        // if ($conn->connect_error) {
+        //   die("Connection failed: " . $conn->connect_error);
+        // }
 
-        $sql = "SELECT * FROM openingstijden";
-        $result = $conn->query($sql);
+        // $sql = "SELECT * FROM openingstijden";
+        // $result = $conn->query($sql);
 
-        if ($result->num_rows > 0) {
-          while ($row = $result->fetch_assoc()) {
-            echo $row["dag"] . ": " . $row["openingsuur"] . " - " . $row["sluitingsuur"] . "<br>" . "<br>";
-          }
-        } else {
-          echo "0 results";
-        }
+        // if ($result->num_rows > 0) {
+        //   while ($row = $result->fetch_assoc()) {
+        //     echo $row["dag"] . ": " . $row["openingsuur"] . " - " . $row["sluitingsuur"] . "<br>" . "<br>";
+        //   }
+        // } else {
+        //   echo "0 results";
+        // }
 
-        $conn->close();
+        // $conn->close();
+        // 
         ?>
       </div>
       <img id="OT2" src="img/walrus3.png" alt="foto3">

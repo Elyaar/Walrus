@@ -5,7 +5,7 @@
 }
 
 .top {
-  display : flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -15,13 +15,22 @@ p {
 }
 
 
-body{
+body {
   /* background-color: #B00222; */
   background-color: var(--secondary-color);
 }
+
 .logo {
   width: 25vw;
   margin-top: -4vw;
+}
+
+.h1-open {
+  margin-bottom: -10vh;
+}
+
+.h1-div {
+  margin-top: -10vh;
 }
 
 .green {
@@ -121,7 +130,9 @@ main {
   margin-bottom: 2%;
 }
 
-body, #korte_omschrijving, #openingstijden {
+body,
+#korte_omschrijving,
+#openingstijden {
   overflow-x: auto;
 }
 
@@ -145,7 +156,7 @@ body, #korte_omschrijving, #openingstijden {
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
-  width: 100% ;
+  width: 100%;
   width: 100%;
 }
 
@@ -182,7 +193,7 @@ body, #korte_omschrijving, #openingstijden {
 }
 
 footer h2 {
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
