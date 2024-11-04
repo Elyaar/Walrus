@@ -30,6 +30,8 @@
           <li><a href="menukaart.php">MENU</a></li>
           <li><a href="reserveren.php">RESERVEREN</a></li>
           <li><a href="contact.php">CONTACT</a></li>
+          <li><a href="login.php">Log in</a></li>
+
         </ul>
       </nav>
     </div>
