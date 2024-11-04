@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #0c5434;
-  --secondary-color: #EAEFE2;
-  --tertiary-color: #65463E;
+  --primary-color: #a52727;
+  --secondary-color: #a7877e;
+  --tertiary-color: #e0e4da;
 }
 
 .top {
@@ -150,7 +150,7 @@ body, #korte_omschrijving, #openingstijden {
 }
 
 #korte_omschrijving a {
-  color: white;
+  color: var(--secondary-color);
 }
 
 #korte_omschrijving a:hover {
