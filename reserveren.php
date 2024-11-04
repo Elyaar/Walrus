@@ -67,7 +67,7 @@
           <input type="text" class="input-1" placeholder="E-mail" name="E-mail" required pattern=".*@.*\..*">
         </div>
         <div class="div-r1">
-          <label for="Tel" class="btn-1">Tel:opt </label>
+          <label for="Tel" class="btn-1">Tel: </label>
           <input type="number" class="input-1" placeholder="Telefoon nummer" name="Tel">
 
         </div>
@@ -81,11 +81,7 @@
         <label for="Date" class="btn-2">Datum*: </label>
         <input type="date" class="input-2" required name="datum">
       </div>
-<<<<<<< Updated upstream
-      <div class="div-r1"> <label for="tijd">Kies een tijd:</label>
-=======
       <div class="div-r1"> <label for="tijd">Kies een tijd*:</label>
->>>>>>> Stashed changes
         <input type="time" id="tijd" name="tijd" required>
       </div>
 
